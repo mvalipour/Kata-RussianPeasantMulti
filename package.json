@@ -1,0 +1,25 @@
+{
+  "name": "Kata-RussianPeasantMulti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvalipour/Kata-RussianPeasantMulti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvalipour/Kata-RussianPeasantMulti/issues"
+  },
+  "homepage": "https://github.com/mvalipour/Kata-RussianPeasantMulti",
+  "dependencies": {
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1"
+  }
+}

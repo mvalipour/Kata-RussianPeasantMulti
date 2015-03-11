@@ -4,3 +4,54 @@ It is said that Russian peasants multiply using a most curious method, They star
 http://img.thedailywtf.com/images/200907/RussianPeasant.gif
 
 Your challenge: write a function that multiplies two numbers using the Russian peasant algorithm. There is no language restriction, though anything on the esoteric language list will probably be ignored. Spoiler alert: the solution(s) will undoubtedly appear in the comments.
+
+# This solution
+
+##Technologies
+
+- nodejs
+- underscore
+- mocha
+- chai
+
+## Run
+
+```
+node src/ 18 23
+node src/ 18 23 --verbose
+```
+
+The latter will print the steps on the output:
+
+```
+-- initial steps:
+{ left: 18, right: 23 }
+{ left: 9, right: 46 }
+{ left: 4, right: 92 }
+{ left: 2, right: 184 }
+{ left: 1, right: 368 }
+-- pick odd pairs
+{ left: 9, right: 46 }
+{ left: 1, right: 368 }
+-- sum up:
+414
+```
+
+Both will print result:
+
+```
+Result:  414
+```
+
+## Test
+
+Make sure you have mocha installed:
+
+```
+npm install -g mocha
+```
+
+and run tests:
+```
+mocha
+```
