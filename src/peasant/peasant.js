@@ -14,7 +14,7 @@ function generate(x, y){
 }
 
 function pick(col){
-  return _.filter(col, function(p) { return p.left % 2 == 1; });
+  return _.filter(col, function(p) { return p.left & 1 == 1; });
 }
 
 function sum(col){
