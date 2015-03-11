@@ -7,6 +7,12 @@ Your challenge: write a function that multiplies two numbers using the Russian p
 
 # This solution
 
+Interesting facts: You can use bitwise operands to apply arithmetic operations on numbers. Which are faster and can be directly map to hardware single operations:
+
+- `x >> 1` to divide by 2 without remainder
+- `x << 1` to multiply by 2
+- `x & 1` to check whether the number is odd
+
 ##Technologies
 
 - nodejs
