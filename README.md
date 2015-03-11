@@ -16,6 +16,14 @@ Your challenge: write a function that multiplies two numbers using the Russian p
 
 ## Run
 
+Install necessary packages:
+
+```
+npm install
+```
+
+and run!
+
 ```
 node src/ 18 23
 node src/ 18 23 --verbose
