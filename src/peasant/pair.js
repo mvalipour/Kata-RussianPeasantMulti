@@ -5,7 +5,7 @@ function pair(x, y){
 
 
 pair.prototype.shift = function(){
-  return new pair(Math.floor(this.left / 2), this.right * 2);
+  return new pair(this.left >> 1, this.right << 1);
 };
 
 module.exports = pair;
